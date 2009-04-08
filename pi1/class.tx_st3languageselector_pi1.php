@@ -31,11 +31,11 @@ require_once(PATH_tslib.'class.tslib_pibase.php');
 
 
 /**
- * Plugin 'Lang selector' for the 'st3_lang' extension.
+ * Plugin 'Language selector' for the 'st3_language_selector' extension.
  *
  * @author	ST3elkartea <>
  * @package	TYPO3
- * @subpackage	tx_st3lang
+ * @subpackage	tx_st3languageselector
  */
 class tx_st3languageselector_pi1 extends tslib_pibase {
     public $prefixId      = 'tx_st3languageselector_pi1';        // Same as class name
