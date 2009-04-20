@@ -35,7 +35,7 @@ require_once(PATH_tslib.'class.tslib_pibase.php');
  *
  * @author	ST3elkartea <>
  * @package	TYPO3
- * @subpackage	tx_st3languageselector
+ * @subpackage	tx_st3languageselector_pi1
  */
 class tx_st3languageselector_pi1 extends tslib_pibase {
     public $prefixId      = 'tx_st3languageselector_pi1';        // Same as class name
@@ -107,7 +107,7 @@ class tx_st3languageselector_pi1 extends tslib_pibase {
             
             $subPartContent .= $this->cObj->substituteMarkerArray($template['langs'], $markerArray);
         }
-        
+
         return $this->cObj->substituteSubpart($template['total'], '###LANGS###', $subPartContent);
     }
     

@@ -1,4 +1,4 @@
-plugin.tx_st3languageselector_pi1 {
+plugin.tx_st3languageselector_pi1{
 	defaultLanguageISOCode = {$plugin.tx_st3languageselector_pi1.defaultLanguageISOCode}
 	
 	languagesUidsList = {$plugin.tx_st3languageselector_pi1.languagesUidsList}

@@ -1,4 +1,4 @@
-plugin.tx_st3languageselector_pi1 {
+plugin.tx_st3languageselector_pi1{
     # cat=plugin.tx_st3languageselector_pi1//01; type=string; label= Language ISO-2 code of default site language: Language ISO-2 code of site language when sys_language_uid = 0.
     defaultLanguageISOCode = EN
     
@@ -15,7 +15,7 @@ plugin.tx_st3languageselector_pi1 {
 	displayLocalLangName = 0
 	
 	# cat=plugin.tx_st3languageselector_pi1/file/01; type=file[html,htm,tmpl,txt]; label= Template File: HTML-template file
-    file.templateFile = EXT:st3_lang/templates/default.tmpl
+    file.templateFile = EXT:st3_language_selector/templates/default.tmpl
     
 	# cat=plugin.tx_st3languageselector_pi1//05; type=string; label= Default layout: Default layout to be used, if no layout is otherwise provided to the plugin.    	
 	layout = default
